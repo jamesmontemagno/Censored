@@ -32,10 +32,10 @@ result = censor.CensorText("Gosh darnit, my shoe laces are undone.");
 
 bool hasCensoredWord;
 
-hasCensoredWord = censor.CensorText("I stubbed my toe. Gosh it hurts!");
+hasCensoredWord = censor.HasCensoredWord("I stubbed my toe. Gosh it hurts!");
 // true
 
-hasCensoredWord = censor.CensorText("I stubbed my toe. It hurts!");
+hasCensoredWord = censor.HasCensoredWord("I stubbed my toe. It hurts!");
 // false
 ```
 
