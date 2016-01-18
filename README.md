@@ -1,6 +1,8 @@
 # Censored - A .NET Profanity Censoring Library
 
-A .NET library to easily easily detect and censor words. Inspired by a blog from [James Newton-King](http://james.newtonking.com/archive/2009/07/03/simple-net-profanity-filter) and code used with [permission](https://twitter.com/JamesNK/status/688905862723682304).
+A .NET library to easily detect and censor words. Specify the list of words you wish to censor and Censored will automatically replace them with *****. If you want to just check if a censored word exists in a sentence you can do that too.
+
+Inspired by a blog from [James Newton-King](http://james.newtonking.com/archive/2009/07/03/simple-net-profanity-filter) and code used with [permission](https://twitter.com/JamesNK/status/688905862723682304).
 
 Grab the NuGet: [![NuGet](https://img.shields.io/nuget/v/Censored.svg?label=NuGet)](https://www.nuget.org/packages/Censored/)
 
