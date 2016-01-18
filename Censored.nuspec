@@ -6,6 +6,7 @@
        <title>Censored - A .NET Profanity Censoring Library</title>
        <authors>James Montemagno</authors>
        <owners>James Montemagno</owners>
+       <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Censored/master/Art/icon.png</iconUrl>
        <licenseUrl>https://raw.githubusercontent.com/jamesmontemagno/Censored/master/LICENSE.md</licenseUrl>
        <projectUrl>https://github.com/jamesmontemagno/Censored</projectUrl>
        <requireLicenseAcceptance>false</requireLicenseAcceptance>

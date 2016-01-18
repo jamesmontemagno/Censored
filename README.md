@@ -4,7 +4,7 @@ A .NET library to easily easily detect and censor words. Inspired by a blog from
 
 Grab the NuGet: [![NuGet](https://img.shields.io/nuget/v/Censored.svg?label=NuGet)](https://www.nuget.org/packages/Censored/)
 
-Build Status: [![Build status](https://ci.appveyor.com/api/projects/status/nsj9rae1g93hy62o/branch/master?svg=true)](https://ci.appveyor.com/project/JamesMontemagno/Censored/branch/master)
+Build Status: [![Build status](https://ci.appveyor.com/api/projects/status/slpqj2n17tlj7ff8/branch/master?svg=true)](https://ci.appveyor.com/project/JamesMontemagno/censored/branch/master)
 
 ### Usage
 
@@ -39,6 +39,7 @@ hasCensoredWord = censor.CensorText("I stubbed my toe. It hurts!");
 // false
 ```
 
+You can find a nice list of words to censor at: http://www.bannedwordlist.com
 
 ### License
 Under MIT (please see LICENSE file)
