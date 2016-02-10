@@ -8,6 +8,8 @@ Grab the NuGet: https://www.nuget.org/packages/Censored/ [![NuGet](https://img.s
 
 Build Status: [![Build status](https://ci.appveyor.com/api/projects/status/slpqj2n17tlj7ff8/branch/master?svg=true)](https://ci.appveyor.com/project/JamesMontemagno/censored/branch/master)
 
+Built with C# 6 features, you must be running VS 2015 or Xamarin Studio to compile. **NuGets of course work everywhere!**
+
 ### Usage
 
 ```csharp
