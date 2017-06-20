@@ -9,7 +9,8 @@ assembly_info:
 build_script:
 - cmd: >-
     nuget restore .\Censored.sln
-    powershell .\bootstrapper.ps1 -Target NuGetPack -Verbosity diagnostic
+    
+	powershell .\bootstrapper.ps1 -Target NuGetPack -Verbosity diagnostic
 artifacts:
 - path: '*.nupkg'
   name: NuGet
