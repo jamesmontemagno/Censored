@@ -8,4 +8,8 @@
     <DocumentationFile>bin\Debug\netstandard1.0\Censored.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.0\Censored.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
