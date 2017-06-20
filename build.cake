@@ -19,8 +19,7 @@ Task ("NuGetPack")
 		Version = version,
 		Verbosity = NuGetVerbosity.Detailed,
 		OutputDirectory = "./",
-		BasePath = "./",
-		ToolPath = "./tools/nuget3.exe"
+		BasePath = "./"
 	});	
 });
 
