@@ -8,7 +8,6 @@ assembly_info:
   assembly_informational_version: '{version}'
 build_script:
 - cmd: >-
-    nuget restore .\Censored.sln
     powershell .\bootstrapper.ps1 -Target NuGetPack -Verbosity diagnostic
 artifacts:
 - path: '*.nupkg'
