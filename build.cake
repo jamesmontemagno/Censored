@@ -19,7 +19,7 @@ Task ("NuGetPack")
 		Version = version,
 		Verbosity = NuGetVerbosity.Detailed,
 		OutputDirectory = "./",
-		BasePath = "./"
+		BasePath = "./",
 	});	
 });
 
