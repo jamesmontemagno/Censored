@@ -11,5 +11,5 @@ build_script:
     nuget restore .\Censored.sln
     powershell .\bootstrapper.ps1 -Target NuGetPack -Verbosity diagnostic
 artifacts:
-- path: *.nupkg
+- path: '*.nupkg'
   name: NuGet
