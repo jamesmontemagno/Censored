@@ -14,19 +14,18 @@ namespace Censored
     public class Censor
     {
         /// <summary>
-        /// Gets the censored words list.
+        /// Get or set the censored words list.
         /// </summary>
         /// <value>The censored words list.</value>
-        public IList<string> CensoredWords { get; }
+        public IList<string> CensoredWords { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Censored.Censor"/> class.
         /// </summary>
         /// <param name="censoredWords">Censored words, if null uses default list</param>
-        public Censor(IEnumerable<string> censoredWords = null)
-        {
+        public Censor(IEnumerable<string> censoredWords = null) =>
             CensoredWords = censoredWords == null ? new List<string>() : new List<string>(censoredWords);
-        }
+        
 
         /// <summary>
         /// Censors the text and replaces dirty words with ****
@@ -77,7 +76,8 @@ namespace Censored
             return false;
         }
 
-        static string StarCensoredMatch(Group m) => new string('*', m.Captures[0].Value.Length);
+        static string StarCensoredMatch(Group m) => 
+            new string('*', m.Captures[0].Value.Length);
 
         static string ToRegexPattern(string wildcardSearch)
         {
