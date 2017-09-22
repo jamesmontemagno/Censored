@@ -1,5 +1,6 @@
 version: 2.0.0.{build}-beta
 image: Visual Studio 2017
+configuration: Release
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
@@ -8,7 +9,7 @@ assembly_info:
   assembly_informational_version: '{version}'
 build_script:
 - cmd: >-
-    powershell .\bootstrapper.ps1 -Target NuGetPack -Verbosity diagnostic
+    powershell .\build.ps1 -Target NuGetPack -Verbosity diagnostic
 artifacts:
 - path: '*.nupkg'
   name: NuGet
