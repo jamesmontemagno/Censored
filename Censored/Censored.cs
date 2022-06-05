@@ -24,8 +24,7 @@ namespace Censored
         /// </summary>
         /// <param name="censoredWords">Censored words, if null uses default list</param>
         public Censor(IEnumerable<string> censoredWords = null) =>
-            CensoredWords = censoredWords == null ? new List<string>() : new List<string>(censoredWords);
-        
+            CensoredWords = censoredWords == null ? new List<string>() : new List<string>(censoredWords);       		
 
         /// <summary>
         /// Censors the text and replaces dirty words with ****
